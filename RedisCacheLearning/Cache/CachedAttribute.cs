@@ -41,7 +41,7 @@ namespace RedisCacheLearning.Cache
                 {
                     Content = cachedResponse,
                     ContentType = "application/json",
-                    StatusCode = 202
+                    StatusCode = 200
                 };
                 context.Result = contentResult;
                 return;
